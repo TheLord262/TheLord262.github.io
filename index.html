@@ -5,31 +5,43 @@
 
     <style>
         html{
-        background: darkblue;
-        color: white;
-    }
+            background: darkblue;
+            color: white;
+        }
 
-    .navbar {
-        overflow: hidden;
-        background-color: #333;
-        font-family: Arial;
-    }
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            font-family: Arial;
+        }
 
-    .navbar a {
-        float: left;
-        font-size: 16px;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .navbar html{
+            left: 33%;
+        }
+        
+        .navbar python{
+            left: 66%;    
+        }
+        
+        .navbar unity{
+         left: 99%;   
+        }
     </style>
 
     <body>
         <div class="navbar">
-            <a href="HTML/htmlindex.html">HTML</a>
-            <a href="PYTHON/pythonindex.html">Python</a>
-            <a href="UNITY/unityindex.html">Unity</a>
+            <a class="html" href="HTML/htmlindex.html">HTML</a>
+            <a class="python" href="PYTHON/pythonindex.html">Python</a>
+            <a class="unity" href="UNITY/unityindex.html">Unity</a>
         </div>
     </body>
 </html>
